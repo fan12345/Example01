@@ -19,7 +19,15 @@
         android:id="@+id/button01"
         android:layout_below="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="First Application"
         android:textColor="#FF00FF"/>
+
+    <TextView
+        android:id="@+id/textView02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button01"
+        android:text="삽 입"/>
 </RelativeLayout>
